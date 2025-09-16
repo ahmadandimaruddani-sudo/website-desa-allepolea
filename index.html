@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Desa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 56px;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Desa Harmoni</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#profil">Profil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#berita">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-light text-dark text-center py-5">
+    <div class="container">
+      <h1 class="fw-bold">Selamat Datang di Website Desa Harmoni</h1>
+      <p class="lead">Informasi, pelayanan, dan berita terbaru seputar desa</p>
+      <a href="#profil" class="btn btn-success btn-lg">Jelajahi</a>
+    </div>
+  </header>
+
+  <!-- Profil Desa -->
+  <section id="profil" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Profil Desa</h2>
+      <p class="text-center">Desa Harmoni adalah desa yang terletak di Kabupaten Sejahtera. Desa ini memiliki visi menjadi desa mandiri, sejahtera, dan berbudaya dengan mengedepankan gotong royong dan kearifan lokal.</p>
+    </div>
+  </section>
+
+  <!-- Berita -->
+  <section id="berita" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Berita Terbaru</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="berita1">
+            <div class="card-body">
+              <h5 class="card-title">Kegiatan Gotong Royong</h5>
+              <p class="card-text">Warga desa melaksanakan gotong royong membersihkan lingkungan pada hari Minggu pagi.</p>
+              <a href="#" class="btn btn-success btn-sm">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="berita2">
+            <div class="card-body">
+              <h5 class="card-title">Panen Raya</h5>
+              <p class="card-text">Panen padi tahun ini menghasilkan produksi yang meningkat dibanding tahun lalu.</p>
+              <a href="#" class="btn btn-success btn-sm">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="berita3">
+            <div class="card-body">
+              <h5 class="card-title">Pelatihan UMKM</h5>
+              <p class="card-text">Pemerintah desa mengadakan pelatihan untuk meningkatkan keterampilan UMKM lokal.</p>
+              <a href="#" class="btn btn-success btn-sm">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan Desa -->
+  <section id="layanan" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Layanan Desa</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="p-4 border rounded shadow-sm">
+            <h4>Surat Pengantar</h4>
+            <p>Layanan pembuatan surat pengantar untuk berbagai keperluan.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 border rounded shadow-sm">
+            <h4>Informasi Publik</h4>
+            <p>Transparansi informasi keuangan dan program pembangunan desa.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 border rounded shadow-sm">
+            <h4>Pengaduan Warga</h4>
+            <p>Warga dapat menyampaikan aspirasi, kritik, dan saran.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Kontak Kami</h2>
+      <p class="text-center">Alamat: Kantor Desa Harmoni, Jl. Persatuan No. 10, Kabupaten Sejahtera</p>
+      <p class="text-center">Email: desa.harmoni@example.com | Telp: (021) 123456</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Desa Harmoni. Semua Hak Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
